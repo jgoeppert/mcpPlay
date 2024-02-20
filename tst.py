@@ -4,9 +4,10 @@ id_vendor = 0x04D8
 product_id = 0x00DE
 vendor_id = 0x04D8
 dev = usb.core.find(idProduct=id_device)
+print(dev)
 serialNumber = usb.util.get_string( dev, dev.iSerialNumber )
 print('found device serial number: {}' .format(serialNumber))
-# quit()
+quit()
 # serialNumber = '0001007645'
 # serial_number = '0001007645'
 import time
