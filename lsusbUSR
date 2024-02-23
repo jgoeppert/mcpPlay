@@ -1,4 +1,4 @@
-Bus 001 Device 003: ID 04d8:00de Microchip Technology, Inc. MCP2210 USB to SPI Master
+Bus 001 Device 004: ID 04d8:00de Microchip Technology, Inc. MCP2210 USB to SPI Master
 Device Descriptor:
   bLength                18
   bDescriptorType         1
@@ -10,9 +10,9 @@ Device Descriptor:
   idVendor           0x04d8 Microchip Technology, Inc.
   idProduct          0x00de 
   bcdDevice            0.02
-  iManufacturer           1 
-  iProduct                2 
-  iSerial                 3 
+  iManufacturer           1 Microchip Technology Inc.
+  iProduct                2 MCP2210 USB to SPI Master
+  iSerial                 3 0001007645
   bNumConfigurations      1
   Configuration Descriptor:
     bLength                 9
@@ -33,3 +33,6 @@ Device Descriptor:
       bInterfaceClass         3 Human Interface Device
       bInterfaceSubClass      0 
       bInterfaceProtocol      0 
+      iInterface              0 
+        HID Device Descriptor:
+          bLength                 9
